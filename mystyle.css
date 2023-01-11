@@ -1,0 +1,75 @@
+ *{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: serif, sans-serif;
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  
+  .main-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-image: url("https://astronomy.com/~/media/60590B71567D48C89FD5B432452D3007.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    color: Black;
+
+  }
+  body {
+    background: rgb(38, 70, 130);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-size: cover;
+    
+  }
+
+  .photo {
+    flex: auto;
+    padding: auto;
+    border-style:hidden;
+    height: 422px;
+    width: 270px;
+    }
+  .paragraph
+  {
+    font-size:xx-large;
+    color: white;
+    flex: content;
+    align-items: center;
+  }
+  
+  .card {
+    flex: 1 0 200px;
+    align-items: flex-start;
+    padding: 0px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .card header {
+    padding: 20px;
+    background: #cd1ab2;
+    color: #fff;
+  }
+  .card footer {
+    flex: 1 0 200px;
+    padding: 0px;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
