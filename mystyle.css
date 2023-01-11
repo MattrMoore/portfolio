@@ -41,6 +41,7 @@
     height: 422px;
     width: 270px;
     }
+
   .paragraph
   {
     font-size:xx-large;
@@ -63,6 +64,7 @@
     background: #cd1ab2;
     color: #fff;
   }
+  
   .card footer {
     flex: 1 0 200px;
     padding: 0px;
